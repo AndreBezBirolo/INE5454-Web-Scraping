@@ -1,49 +1,40 @@
+import json
+
 from bs4 import BeautifulSoup
-from selenium import webdriver;
+from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-import time;
-import json;
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 service = Service()
 options = webdriver.ChromeOptions()
-driver = webdriver.Chrome(service=service, options=options)
-
-currentUrl = ''
-driver.get('https://coinmarketcap.com/')
-time.sleep(5)
-pageContent = driver.page_source
-currentUrl = driver.current_url
-driver.quit()
 
 cryptoCurrency = []
 
-site = BeautifulSoup(pageContent, 'html.parser')
-trs = site.find('tbody').find_all('tr')
+with webdriver.Chrome(service=service, options=options) as driver:
+    wait = WebDriverWait(driver, 10)
+    for page in range(1, 11):
+        driver.get(f'https://coinmarketcap.com/?page={page}')
+        wait.until(EC.presence_of_element_located((By.TAG_NAME, 'tbody')))
+        pageContent = driver.page_source
+        currentUrl = driver.current_url
 
-for index, tr in enumerate(trs):
-  tds = tr.find_all('td')
-  if len(tds) > 2:
-    third_td = tds[2]
-    fourth_td = tds[3]
-    ps = third_td.find_all('p')
-    spans = third_td.find_all('span')
-    if ps:
-      cryptoCurrency.append({
-        'name': ps[0].get_text(),
-        'symbol': ps[1].get_text(),
-        'rank': index + 1,
-        'price': fourth_td.get_text(),
-        'url': currentUrl,
-      })
-    elif spans:
-      cryptoCurrency.append({
-        'name': spans[1].get_text(),
-        'symbol': spans[2].get_text(),
-        'rank': index + 1,
-        'price': fourth_td.get_text(),
-        'url': currentUrl,
-      })
+        site = BeautifulSoup(pageContent, 'html.parser')
+        trs = site.find('tbody').find_all('tr')
+
+        cryptoCurrency += [
+            {
+                'name': ps[0].get_text() if (ps := third_td.find_all('p')) else spans[1].get_text(),
+                'symbol': ps[1].get_text() if ps else spans[2].get_text(),
+                'rank': index + 1,
+                'price': (fourth_td := tds[3]).get_text(),
+                'url': currentUrl,
+            }
+            for index, tr in enumerate(trs) if len((tds := tr.find_all('td'))) > 2
+            for third_td in [tds[2]]
+            for spans in [third_td.find_all('span')]
+        ]
 
 with open('cryptoCurrency.json', 'w') as file:
-  file.write(str(json.dumps(cryptoCurrency, indent=4)))
+    json.dump(cryptoCurrency, file, indent=4)
