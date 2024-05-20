@@ -3,14 +3,14 @@
         "name": "Bitcoin",
         "symbol": "BTC",
         "rank": 1,
-        "price": "$68,150.40",
+        "price": "$68,164.14",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Ethereum",
         "symbol": "ETH",
         "rank": 2,
-        "price": "$3,136.59",
+        "price": "$3,132.38",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -24,14 +24,14 @@
         "name": "BNB",
         "symbol": "BNB",
         "rank": 4,
-        "price": "$579.28",
+        "price": "$579.05",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Solana",
         "symbol": "SOL",
         "rank": 5,
-        "price": "$180.42",
+        "price": "$180.40",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -45,42 +45,42 @@
         "name": "XRP",
         "symbol": "XRP",
         "rank": 7,
-        "price": "$0.5202",
+        "price": "$0.5203",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Toncoin",
         "symbol": "TON",
         "rank": 8,
-        "price": "$6.55",
+        "price": "$6.58",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Dogecoin",
         "symbol": "DOGE",
         "rank": 9,
-        "price": "$0.1537",
+        "price": "$0.1531",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Cardano",
         "symbol": "ADA",
         "rank": 10,
-        "price": "$0.4724",
+        "price": "$0.4731",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Shiba Inu",
         "symbol": "SHIB",
         "rank": 11,
-        "price": "$0.00002439",
+        "price": "$0.00002427",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Avalanche",
         "symbol": "AVAX",
         "rank": 12,
-        "price": "$36.94",
+        "price": "$36.98",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -94,21 +94,21 @@
         "name": "Polkadot",
         "symbol": "DOT",
         "rank": 14,
-        "price": "$7.13",
+        "price": "$7.14",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Chainlink",
         "symbol": "LINK",
         "rank": 15,
-        "price": "$16.53",
+        "price": "$16.57",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Bitcoin Cash",
         "symbol": "BCH",
         "rank": 16,
-        "price": "$490.08",
+        "price": "$490.35",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -136,7 +136,7 @@
         "name": "Internet Computer",
         "symbol": "ICP",
         "rank": 20,
-        "price": "$12.95",
+        "price": "$13.00",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -157,14 +157,14 @@
         "name": "Uniswap",
         "symbol": "UNI",
         "rank": 23,
-        "price": "$7.80",
+        "price": "$7.81",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Ethereum Classic",
         "symbol": "ETC",
         "rank": 24,
-        "price": "$28.41",
+        "price": "$28.37",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -192,7 +192,7 @@
         "name": "Aptos",
         "symbol": "APT",
         "rank": 28,
-        "price": "$8.60",
+        "price": "$8.64",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -206,14 +206,14 @@
         "name": "Immutable",
         "symbol": "IMX",
         "rank": 30,
-        "price": "$2.37",
+        "price": "$2.38",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Cosmos",
         "symbol": "ATOM",
         "rank": 31,
-        "price": "$8.42",
+        "price": "$8.43",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -227,14 +227,14 @@
         "name": "Arweave",
         "symbol": "AR",
         "rank": 33,
-        "price": "$48.93",
+        "price": "$48.91",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Filecoin",
         "symbol": "FIL",
         "rank": 34,
-        "price": "$5.69",
+        "price": "$5.70",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -262,14 +262,14 @@
         "name": "Stacks",
         "symbol": "STX",
         "rank": 38,
-        "price": "$2.06",
+        "price": "$2.07",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "OKB",
         "symbol": "OKB",
         "rank": 39,
-        "price": "$49.36",
+        "price": "$49.31",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -290,7 +290,7 @@
         "name": "dogwifhat",
         "symbol": "WIF",
         "rank": 42,
-        "price": "$2.71",
+        "price": "$2.70",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -304,7 +304,7 @@
         "name": "Bittensor",
         "symbol": "TAO",
         "rank": 44,
-        "price": "$392.43",
+        "price": "$393.16",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -318,14 +318,14 @@
         "name": "Sui",
         "symbol": "SUI",
         "rank": 46,
-        "price": "$1.12",
+        "price": "$1.13",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Maker",
         "symbol": "MKR",
         "rank": 47,
-        "price": "$2792.42",
+        "price": "$2793.35",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -336,17 +336,17 @@
         "url": "https://coinmarketcap.com/"
     },
     {
-        "name": "Monero",
-        "symbol": "XMR",
+        "name": "Injective",
+        "symbol": "INJ",
         "rank": 49,
-        "price": "$136.83",
+        "price": "$27.02",
         "url": "https://coinmarketcap.com/"
     },
     {
-        "name": "Injective",
-        "symbol": "INJ",
+        "name": "Monero",
+        "symbol": "XMR",
         "rank": 50,
-        "price": "$26.97",
+        "price": "$136.46",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -367,7 +367,7 @@
         "name": "Fetch.ai",
         "symbol": "FET",
         "rank": 53,
-        "price": "$2.36",
+        "price": "$2.35",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -395,21 +395,21 @@
         "name": "Celestia",
         "symbol": "TIA",
         "rank": 57,
-        "price": "$8.89",
-        "url": "https://coinmarketcap.com/"
-    },
-    {
-        "name": "Lido DAO",
-        "symbol": "LDO",
-        "rank": 58,
-        "price": "$1.79",
+        "price": "$8.94",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Pyth Network",
         "symbol": "PYTH",
-        "rank": 59,
+        "rank": 58,
         "price": "$0.44",
+        "url": "https://coinmarketcap.com/"
+    },
+    {
+        "name": "Lido DAO",
+        "symbol": "LDO",
+        "rank": 59,
+        "price": "$1.80",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -479,14 +479,14 @@
         "name": "Aave",
         "symbol": "AAVE",
         "rank": 69,
-        "price": "$88.13",
+        "price": "$88.25",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Bitcoin SV",
         "symbol": "BSV",
         "rank": 70,
-        "price": "$66.21",
+        "price": "$66.28",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -507,7 +507,7 @@
         "name": "Quant",
         "symbol": "QNT",
         "rank": 73,
-        "price": "$97.73",
+        "price": "$98.01",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -542,7 +542,7 @@
         "name": "Neo",
         "symbol": "NEO",
         "rank": 78,
-        "price": "$15.17",
+        "price": "$15.19",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -556,21 +556,21 @@
         "name": "Axie Infinity",
         "symbol": "AXS",
         "rank": 80,
-        "price": "$7.27",
-        "url": "https://coinmarketcap.com/"
-    },
-    {
-        "name": "Worldcoin",
-        "symbol": "WLD",
-        "rank": 81,
-        "price": "$4.91",
+        "price": "$7.29",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "MultiversX",
         "symbol": "EGLD",
+        "rank": 81,
+        "price": "$39.11",
+        "url": "https://coinmarketcap.com/"
+    },
+    {
+        "name": "Worldcoin",
+        "symbol": "WLD",
         "rank": 82,
-        "price": "$39.00",
+        "price": "$4.90",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -588,17 +588,17 @@
         "url": "https://coinmarketcap.com/"
     },
     {
-        "name": "eCash",
-        "symbol": "XEC",
+        "name": "Wormhole",
+        "symbol": "W",
         "rank": 85,
-        "price": "$0.00",
+        "price": "$0.55",
         "url": "https://coinmarketcap.com/"
     },
     {
-        "name": "Wormhole",
-        "symbol": "W",
+        "name": "eCash",
+        "symbol": "XEC",
         "rank": 86,
-        "price": "$0.55",
+        "price": "$0.00",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -640,14 +640,14 @@
         "name": "Ronin",
         "symbol": "RON",
         "rank": 92,
-        "price": "$2.77",
+        "price": "$2.78",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Mina",
         "symbol": "MINA",
         "rank": 93,
-        "price": "$0.80",
+        "price": "$0.81",
         "url": "https://coinmarketcap.com/"
     },
     {
@@ -675,21 +675,21 @@
         "name": "Decentraland",
         "symbol": "MANA",
         "rank": 97,
-        "price": "$0.4383",
+        "price": "$0.44",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "Gnosis",
         "symbol": "GNO",
         "rank": 98,
-        "price": "$317.35",
+        "price": "$317.32",
         "url": "https://coinmarketcap.com/"
     },
     {
         "name": "BOOK OF MEME",
         "symbol": "BOME",
         "rank": 99,
-        "price": "$0.01174",
+        "price": "$0.01",
         "url": "https://coinmarketcap.com/"
     },
     {

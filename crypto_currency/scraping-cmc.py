@@ -12,17 +12,6 @@ driver = webdriver.Chrome(service=service, options=options)
 currentUrl = ''
 driver.get('https://coinmarketcap.com/')
 time.sleep(5)
-
-last_height = driver.execute_script("return document.body.scrollHeight")
-while True:
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(1)
-    new_height = driver.execute_script("return document.body.scrollHeight")
-    if new_height == last_height:
-        break
-    last_height = new_height
-
-time.sleep(5)
 pageContent = driver.page_source
 currentUrl = driver.current_url
 driver.quit()
