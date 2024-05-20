@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "day": "Segunda-Feira",
+            "date": "11/03/2024",
+            "ingredients": "ARROZ: arroz parboilizado, sal, óleo de soja ARROZ INTEGRAL: arroz integral, sal, óleo de soja FEIJÃO PRETO: feijão preto, cebola, sal, óleo de soja, tempero verde, alho, orégano, louro FRANGO AO MOLHO DE MOSTARDA: carne de frango, leitede vaca, creme de leite, cebola, farinha de trigo, óleo de soja, mostarda, sal, alho em pasta, pimenta preta moída, noz moscada. Contém glúten e lactose. BATATA PALHA : batata palha industrializada (batata inglesa, gordura vegetal, sal). ALFACE: alface. BETERRABA RALADA: beterraba MOLHO DE MOSTARDA: molho de mostarda, água, azeite de oliva, vinagre, tempero verde, alho em p asta, sal",
+            "link": "https://ru.ufsc.br/ru/"
+        },
+        {
+            "day": "Terça-Feira",
+            "date": "12/03/2024",
+            "ingredients": "ARROZ: arroz parboilizado, sal, óleo de soja ARROZ INTEGRAL: arroz integral, sal, óleo de soja FEIJÃO CARIOCA: feijão carioca, cebola, sal, óleo de soja, tempero verde, alho, orégano, louro FILÉ MIGNON SUÍNO AO MOLHO AGRI DOCE: carne suína tipo filé mignon, extrato de tomate, vinagre, molho shoyo, óleo de soja, água, açúcar, amido de milho, alho em pasta, sal, pimenta preta moída, folha de louro, manjericão, orégano. GRÃO DE BICO COM SELETA DE LEGUMES : grão de bico, cebola, alho em pasta, sal. Seleta industrializada (ervilha, batata, cenoura, água e sal). REPOLHO ROXO: repolho roxo CENOURA RALADA: cenoura VINAGRETE: água, tomate, cebola, vinagre, tempero verde, sal",
+            "link": "https://ru.ufsc.br/ru/"
+        },
+        {
+            "day": "Quarta-Feira",
+            "date": "13/03/2024",
+            "ingredients": "ARROZ: arroz parboilizado, sal, ól eo de soja ARROZ INTEGRAL: arroz integral, sal, óleo de soja FEIJÃO PRETO: feijão preto, cebola, sal, óleo de soja, tempero verde, alho, orégano, louro BIFE AO MOLHO BARBECUE: carne bovina, óleo de soja, molho barbecue (polpa de tomate, acúcar, vinagre, am ido, sal, condimento preparado sabor barbecue (sal, cebola, alho, mostada, pimenta calabresa, realçador de sabor glutamato monossódico, aromatizante e antiumectante sílica) corante caramelo IV e conservadores benzoato de sódio e sorbato de potássio),sal, a lho em pasta, pimenta preta moída. BRÓCOLIS COZIDO: brócolis, sal AGRIÃO: agrião RABANETE: rabanete MOLHO DE ERVAS: água, cebola, vinagre, azeite de oliva, sal, sálvia, orégano, manjerona, manjericão",
+            "link": "https://ru.ufsc.br/ru/"
+        },
+        {
+            "day": "Quinta-Feira",
+            "date": "14/03/2024",
+            "ingredients": "ARROZ: arroz parboilizado, sal , óleo de soja ARROZ INTEGRAL: arroz integral, sal, óleo de soja FEIJÃO PRETO: feijão preto, cebola, sal, óleo de soja, tempero verde, alho, orégano, louro SASSAMI EMPANADO: carne de frango, água (16%), farinha de trigo enriquecida com ferro e ácido fólico , gordura vegetal, farinha de milho enriquecida com ferro e ácido fólico transgênico (Agrobacterium tumefaciens, Bacillus subtilis, Bacillus thuringiensis, Diabrotica virgifera, Dicossoma sp, Sphingobium herbicidovorans, Streptomyces viridochromogenes, The rmococcales spp., Zea mays), amido, sal, açúcar, especiarias (cebola, alho, salsa, aipo e pimenta preta), carne de frango desidratada em pó, condimento preparado sabor galinha, estabilizante tripolifosfato de sódio (INS 451i), espessantes goma xantana (INS 415) e goma guar (INS 412), realçador de sabor glutamato monossódico (INS 621), antioxidante isoascorbato de sódio (INS 316), aromatizantes naturais (óleo resina de pimenta preta e óleo de orégano), acidulante ácido cítrico (INS 330), corantes naturais cú rcuma (INS 100) e urucum (INS 160b). Contém glúten. CREME DE ERVILHA: ervilha seca, cebola, tempero verde, sal, óleo de soja, alho em pasta. REPOLHO: repolho PEPINO: pepino MOLHO DE MOSTARDA: molho de mostarda, água, azeite de oliva, vinagre, tempero verd e, alho em pasta, sal",
+            "link": "https://ru.ufsc.br/ru/"
+        },
+        {
+            "day": "Sexta-Feira",
+            "date": "15/03/2024",
+            "ingredients": "ARROZ: arroz parboilizado, sal, óleo de soja ARROZ INTEGRAL: arroz integral, sal, óleo de soja FEIJÃO COM VEGETAIS: feijão, batata doce, abóbora, chuchu, cebola, sal, tempero verde picado, óleo de soja, alho em pasta, orégano, louro em folha. CARNE MOÍDA COM AZEITONAS: carne bovina, tomate, cebola, azeitonas, massa de tomate, óleo de soja, sal, alho em pasta, tempero verde, pimenta preta moída, manjericão, orégano. FAROFA: farinha de mandioca, óleo de soja, sal , colorau ou açafrão. COUVE -FOLHA: couve -folha CENOURA RALADA: cenoura MOLHO DE ERVAS: água, cebola, vinagre, azeite de oliva, sal, sálvia, orégano, manjerona, manjericão IOGURTE: Leite pasteurizado padronizado e/ou leite reconstituído, açúcar, polpa de fruta, conservante sorbato de potássio, aroma sintético, acidulante ácido lático, espessantes polvilho de mandioca e carboximetilcelulose, corantes artificiais, leite em pó integral, amido modificado, estabilizante gelatina e cultura microbiana. Colorido artificialmente. Contém lactose.",
+            "link": "https://ru.ufsc.br/ru/"
+        }
+    ]
+}
