@@ -14,6 +14,7 @@ cryptoCurrency = []
 
 with webdriver.Chrome(service=service, options=options) as driver:
     wait = WebDriverWait(driver, 10)
+    rank = 0  # Variável para acompanhar o rank globalmente
     for page in range(1, 11):
         driver.get(f'https://coinmarketcap.com/?page={page}')
         wait.until(EC.presence_of_element_located((By.TAG_NAME, 'tbody')))
@@ -23,18 +24,22 @@ with webdriver.Chrome(service=service, options=options) as driver:
         site = BeautifulSoup(pageContent, 'html.parser')
         trs = site.find('tbody').find_all('tr')
 
-        cryptoCurrency += [
-            {
-                'name': ps[0].get_text() if (ps := third_td.find_all('p')) else spans[1].get_text(),
-                'symbol': ps[1].get_text() if ps else spans[2].get_text(),
-                'rank': index + 1,
-                'price': (fourth_td := tds[3]).get_text(),
-                'url': currentUrl,
-            }
-            for index, tr in enumerate(trs) if len((tds := tr.find_all('td'))) > 2
-            for third_td in [tds[2]]
-            for spans in [third_td.find_all('span')]
-        ]
+        for tr in trs:
+            tds = tr.find_all('td')
+            if len(tds) > 2:
+                third_td = tds[2]
+                fourth_td = tds[3]
+                ps = third_td.find_all('p')
+                spans = third_td.find_all('span')
+                if ps or spans:
+                    rank += 1  # Incrementa o rank
+                    cryptoCurrency.append({
+                        'name': ps[0].get_text() if ps else spans[1].get_text(),
+                        'symbol': ps[1].get_text() if ps else spans[2].get_text(),
+                        'rank': rank,
+                        'price': fourth_td.get_text(),
+                        'url': currentUrl,
+                    })
 
 with open('cryptoCurrency.json', 'w') as file:
     json.dump(cryptoCurrency, file, indent=4)
